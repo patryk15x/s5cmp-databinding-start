@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {ElementType} from './ElementType';
 
 @Component({
   selector: 'app-server-element',

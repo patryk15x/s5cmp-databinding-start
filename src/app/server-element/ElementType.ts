@@ -1,4 +1,4 @@
-enum ElementType {
+export enum ElementType {
   SERVER = 'server',
   BLUEPRINT = 'blueprint'
 }
