@@ -8,7 +8,8 @@ import {Component, Input, OnInit} from '@angular/core';
 export class ServerElementComponent implements OnInit {
   server = ElementType.SERVER;
   blueprint = ElementType.BLUEPRINT;
-  @Input() element: ServerElement;
+  // tslint:disable-next-line:no-input-rename
+  @Input('srvElement') element: ServerElement;
 
   constructor() { }
 
